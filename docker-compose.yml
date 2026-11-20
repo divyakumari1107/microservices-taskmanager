@@ -53,6 +53,18 @@ services:
       retries: 5
       start_period: 10s
 
+  dashboard:
+    image: nginx:alpine
+    container_name: taskmanager-dashboard
+    ports:
+      - "3000:80"
+    volumes:
+      - ./web:/usr/share/nginx/html:ro
+    depends_on:
+      - task-service
+    networks:
+      - taskmanager-net
+
 networks:
   taskmanager-net:
     driver: bridge
