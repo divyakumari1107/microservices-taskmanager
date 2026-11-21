@@ -1,12 +1,27 @@
 # 🚀 Microservices Task Manager
 
-A production-style, distributed **Task Management System** built with **ASP.NET Core 8 Minimal APIs**, **Docker**, **Docker Compose**, and **Kubernetes**. Demonstrates microservices architecture patterns including inter-service REST communication, decoupling, health monitoring, and container orchestration.
-
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?style=for-the-badge&logo=github)](https://divyakumari1107.github.io/microservices-taskmanager/)
+[![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black.svg?logo=vercel)](https://microservices-taskmanager.vercel.app/)
 ![Architecture Status](https://img.shields.io/badge/Architecture-Microservices-brightgreen)
 ![.NET Version](https://img.shields.io/badge/.NET-8.0-blue)
 ![Docker](https://img.shields.io/badge/Containerized-Docker%20Compose-2496ed)
 ![Kubernetes](https://img.shields.io/badge/Orchestration-Kubernetes-326ce5)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+A production-style, distributed **Task Management System** built with **ASP.NET Core 8 Minimal APIs**, **Docker**, **Docker Compose**, and **Kubernetes**. Demonstrates microservices architecture patterns including inter-service REST communication, decoupling, health monitoring, and container orchestration.
+
+---
+
+## 🌐 Live Production Deployments
+
+This project includes a live interactive cloud dashboard showcasing microservices service discovery, simulated CRUD task flows, inter-service alerts, and health metrics:
+
+| Resource | Live Link | Status |
+| :--- | :--- | :--- |
+| **Microservices Cloud Dashboard (GitHub Pages)** | **[https://divyakumari1107.github.io/microservices-taskmanager/](https://divyakumari1107.github.io/microservices-taskmanager/)** | 🟢 **Live (24/7)** |
+| **Microservices Live Mirror (Vercel)** | **[https://microservices-taskmanager.vercel.app/](https://microservices-taskmanager.vercel.app/)** | 🟢 **Production Ready** |
+
+---
 
 ---
 
